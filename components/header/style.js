@@ -8,7 +8,15 @@ const estilo = StyleSheet.create({
 
     marginTop: 20,
   },
-
+image:{
+  width: "30%",
+    height: "15%",
+    resizeMode: "cover",
+    borderRadius: 5,
+    marginBottom: 20,
+    aspectRatio: 1,
+    alignSelf: "center",
+},
   subtitulo: {
     fontSize: 20,
 

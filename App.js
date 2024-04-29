@@ -31,7 +31,7 @@ export default function App() {
 const estilo = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#FFE4B5",
+    backgroundColor: "#FF69B4",
     borderColor: "#90E0EF",
     paddingHorizontal: 20,
   },

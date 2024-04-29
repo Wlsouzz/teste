@@ -1,13 +1,18 @@
-import { View, Text } from "react-native";
+import { View, Text, Image } from "react-native";
 
 import estilo from "./style";
 
 export default function Header() {
   return (
     <>
-      <Text style={estilo.titulo}>Minha Rotina Semanal</Text>
+      <Image
+        source={{
+          uri: 'https://oggisorvetes.com.br/wp-content/uploads/2020/12/logo.png',
+        }}
+        style={estilo.image}
+      />
 
-      <Text style={estilo.subtitulo}>Total de Horas = 168 - 100%</Text>
+     
 
       <View
         style={{
@@ -27,3 +32,4 @@ export default function Header() {
     </>
   );
 }
+
