@@ -23,11 +23,8 @@ export default function Header() {
           justifyContent: "space-between",
         }}
       >
-        <Text style={estilo.tituloCard}>Atividade</Text>
 
-        <Text style={estilo.tituloCard}>Descrição</Text>
 
-        <Text style={estilo.tituloCard}>Porcentagem </Text>
       </View>
     </>
   );

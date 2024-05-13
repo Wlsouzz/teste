@@ -26,7 +26,7 @@ image:{
   },
 
   tituloCard: {
-    fontSize: 15,
+    fontSize: 100,
 
     fontWeight: "bold",
 
