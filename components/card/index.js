@@ -2,7 +2,7 @@ import { Text, View, Image } from "react-native";
 
 import estilo from "./style";
 
-export default function Card({ porcentagem, titulo, imagem, texto }) {
+export default function Card({ porcentagem, titulo, imagem, texto, texto2 }) {
   return (
     <View style={estilo.cardTarefa}>
       <Image style={estilo.imagemCard} source={{ uri: imagem }} />
@@ -11,6 +11,7 @@ export default function Card({ porcentagem, titulo, imagem, texto }) {
         <Text style={estilo.tituloCard}>{titulo}</Text>
 
         <Text style={estilo.textoCard}>{texto}</Text>
+        <Text style={estilo.textoCard}>{texto2}</Text>
       </View>
 
       <Text style={{ fontSize: 25 }}>{porcentagem}</Text>

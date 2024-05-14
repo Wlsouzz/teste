@@ -15,6 +15,7 @@ export default function App() {
           keyExtractor={(item) => item.id}
           renderItem={({ item }) => (
             <Card
+              
               titulo={item.titulo}
               imagem={item.imagem}
               porcentagem={item.porcentagem}

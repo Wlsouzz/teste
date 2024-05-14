@@ -20,7 +20,7 @@ const estilo = StyleSheet.create({
 
   textoCard: {
     fontSize: 10,
-    marginTop: 5,
+    marginTop: 3,
   },
 
   imagemCard: {
